@@ -23,7 +23,7 @@ jobs:
 
       - name: Compile grpc
         run: |
-          cd grpc
+          cd $HOME/grpc
           mkdir -p cmake/build
           pushd cmake/build
           cmake -DgRPC_INSTALL=ON \
