@@ -18,7 +18,7 @@ jobs:
           sudo apt install -y cmake
           sudo apt install -y build-essential autoconf libtool pkg-config
           cd $HOME
-          git clone --recurse-submodules -b v1.61.0 --depth 1 --shallow-submodules https://github.com/grpc/grpc.git
+          git clone --recurse-submodules -b v1.62.1 --depth 1 --shallow-submodules https://github.com/grpc/grpc.git
           cd grpc
           mkdir -p cmake/build
           pushd cmake/build
