@@ -38,5 +38,5 @@ jobs:
       - name: Upload to github release
         uses: svenstaro/upload-release-action@v2
         with:
-          file: local_directory.zip
+          file: /home/runner/local_directory.zip
           tag: grpc
