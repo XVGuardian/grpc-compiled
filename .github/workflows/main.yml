@@ -36,4 +36,3 @@ jobs:
         with:
           file: $HOME/.local/bin/grpc_cpp_plugin
           tag: grpc
-          file_glob: true
