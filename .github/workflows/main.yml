@@ -30,6 +30,7 @@ jobs:
           make -j 4
           make install
           popd
+          tree $HOME/.local
           
       - name: Release
         uses: svenstaro/upload-release-action@v2
